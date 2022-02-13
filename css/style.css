@@ -590,7 +590,7 @@ li>a:only-child:after {
         text-decoration: none;
         border: none;
         float: right;
-        background-color: #00bbd1;
+        background-color: none;
         color: #fff;
     }
 
@@ -603,8 +603,8 @@ li>a:only-child:after {
         font-weight: normal;
         font-size: 15px;
         letter-spacing: 1px;
-        background: none;
-        color: #333;
+        background:none;
+        color: #fff;
     }
 
     .toggle:hover {
@@ -618,6 +618,7 @@ li>a:only-child:after {
         background: #fff;
         padding: 15px 0;
         text-align: center;
+        
     }
 
     /* Change menu item's width to 100% */
@@ -915,6 +916,10 @@ p.text-li {
 
 
 /*-- contact --*/
+.contact{
+    background: #f5f6f7;
+    
+}
 .contact-left span {
     text-transform: uppercase;
     font-weight: 600;
